@@ -1,0 +1,91 @@
+
+
+/* This is a header styling */
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    background-color: rgb(46, 46, 219);
+    align-items: center;
+    
+}
+.nav {
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.nav a {
+    color: white;
+    font-size: 18px;
+}
+
+/* This is basic-plan box styling  */
+.box {
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    border: 2px solid #0000ff ;
+    justify-content: center; 
+}
+.button{
+    padding: 18px;
+    background-color: #0000ff;
+    font-size: 18px;
+    color: white; 
+}
+.text {
+    color: #0000ff;
+    font-size: 20px;
+}
+
+/* This is carsouel styling  */
+.carousel{
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.text{
+    color: gray;
+}
+
+/* This is Welcome Page styling  */
+.welcome{
+    padding: 30px;
+    background-color: #0000ff;
+    justify-items: center;
+    color: white;
+}
+.button{
+    padding:10px;
+    background-color: rgb(214, 129, 143);
+}
+.tag-line {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+
+/* This is Portfolio Page styling  */
+.portfolio-box{
+    width: 1000px;
+    height: 150px;
+    border: 2px solid black;
+    justify-items: center;
+    border-radius: 10px;
+    margin-left: 110px;
+}
+.h1{
+    color: #0000ff;
+    font-size: 30px;
+}
