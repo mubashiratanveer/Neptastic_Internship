@@ -1,0 +1,90 @@
+body {   
+    background: linear-gradient(to right, #a645cf, #0e1819);
+    color: white;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background:  #c949d7;
+}
+.h1{
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about, .contact {
+    padding: 50px ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+form input, form button {
+    padding: 10px;
+    font-size: 15pxpx;
+}
+
+button {
+    background:  gray;
+    color: white;
+}
+
+footer {
+    padding: 10px;
+    background: #c949d7;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #420a32;
+        width: 200px;
+        text-align: center;
+        padding: 10px;
+    }
+    .nav-links a {
+        display: block;
+        padding: 10px;
+    }
+    .menu-icon {
+        display: block;
+    }
+}
